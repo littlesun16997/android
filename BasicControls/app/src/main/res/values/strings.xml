@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BasicControls</string>
+    <string name="chicken_text">Chicken</string>
+    <string name="fish_text">Fish</string>
+    <string name="bbq_text">Barbecue</string>
+    <string name="pizza_text">Pizza</string>
+    <string name="potato_text">Potato</string>
+    <string name="select_text">Select</string>
+    <string name="login_text">Login</string>
+</resources>
