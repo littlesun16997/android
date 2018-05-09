@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PhoneModels</string>
+    <string name="image">Phone model</string>
+    <string name="phone">Phone name here</string>
+    <string name="detail">Some details here</string>
+    <string name="button">Back</string>
+</resources>

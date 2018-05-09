@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/phone"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/phoneImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/phoneTextView"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image" />
+
+    <TextView
+        android:id="@+id/phoneTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/phoneImageView"
+        android:gravity="center"
+        android:text="@string/detail" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneTextView2"
+        android:layout_centerHorizontal="true"
+        android:onClick="backButtonPressed"
+        android:text="@string/button" />
+</RelativeLayout>
