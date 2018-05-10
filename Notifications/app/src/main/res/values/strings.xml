@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notifications</string>
+    <string name="channel_name">Notification example</string>
+    <string name="input_name">Name</string>
+    <string name="birth">Birthday</string>
+    <string name="button">Submit</string>
+</resources>
