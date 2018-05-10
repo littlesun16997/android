@@ -3,6 +3,7 @@ package fi.jamk.notifications;
 import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.view.View;
 import android.widget.DatePicker;
 import android.widget.EditText;
@@ -39,6 +40,14 @@ public class DateCustomDialog implements View.OnClickListener, DatePickerDialog.
         DatePickerDialog dialog = new DatePickerDialog(context, this,
                 calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH),
                 calendar.get(Calendar.DAY_OF_MONTH));
+
+        dialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Cancel", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                if (which == DialogInterface.BUTTON_NEGATIVE) {
+                    editText.setText("");
+                }
+            }
+        });
         dialog.show();
     }
 
