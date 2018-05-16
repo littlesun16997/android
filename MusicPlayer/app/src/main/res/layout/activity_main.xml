@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/listView"
-        android:layout_marginStart="85dp"
+        android:layout_marginStart="100dp"
         android:text="Resume"
         android:onClick="playOnClick"/>
 
@@ -28,16 +28,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/listView"
         android:layout_toRightOf="@id/resumeButton"
+        android:layout_marginStart="20dp"
         android:text="Pause"
         android:onClick="pauseOnClick"/>
-
-    <Button
-        android:id="@+id/stopButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/listView"
-        android:layout_toRightOf="@id/pauseButton"
-        android:text="Stop"
-        android:onClick="stopOnClick"/>
 
 </RelativeLayout>

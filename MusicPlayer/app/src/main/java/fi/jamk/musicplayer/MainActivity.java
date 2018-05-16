@@ -65,11 +65,6 @@ public class MainActivity extends AppCompatActivity {
         task.execute();
     }
 
-    public void stopOnClick(View v) {
-        if (mediaPlayer.isPlaying())
-            mediaPlayer.reset();
-    }
-
     public void pauseOnClick(View v) {
         if (mediaPlayer.isPlaying())
             mediaPlayer.pause();
