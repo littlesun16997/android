@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string name="product">Product</string>
+    <string name="count">Count</string>
+    <string name="unit">Unit price</string>
+    <string name="price">Price</string>
+</resources>
