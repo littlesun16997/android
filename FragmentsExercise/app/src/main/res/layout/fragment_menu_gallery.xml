@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ViewFlipper
+        android:id="@+id/flipper1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:flipInterval="2000"
+        android:inAnimation="@anim/slide_in_right"
+        android:outAnimation="@anim/slide_in_left">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/img1"
+            android:scaleType="fitXY"
+            android:src="@drawable/vaasa1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/img2"
+            android:scaleType="fitXY"
+            android:src="@drawable/vaasa2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/img3"
+            android:scaleType="fitXY"
+            android:src="@drawable/vaasa3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/img4"
+            android:scaleType="fitXY"
+            android:src="@drawable/vaasa4" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/img5"
+            android:scaleType="fitXY"
+            android:src="@drawable/vaasa5" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/img6"
+            android:scaleType="fitXY"
+            android:src="@drawable/vaasa6" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/img7"
+            android:scaleType="fitXY"
+            android:src="@drawable/vaasa7" />
+
+    </ViewFlipper>
+
+</RelativeLayout>

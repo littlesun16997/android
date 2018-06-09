@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">FragmentsExercise</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Fragments</string>
+    <string name="nav_header_subtitle">Android application using fragments</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="fragment_home">Vaasa</string>
+    <string name="home_desc">A city on the west coast of Finland, is bilingual with
+        70% of the population speaking Finnish as their first language,
+        23% Swedish and 7% other languages
+    </string>
+    <string name="fragment_info">More information</string>
+    <string name="info_desc">Vaasa has a population of nearly 67,000,
+        in proportion to the population, Vaasa is the largest university city in Finland.
+        The largest energy technology cluster of the Nordic Countries is concentrated
+        in the Vaasa region and focused on the solutions for global energy challenges.
+        The companies operating in the cluster provide know-how in the solutions for distributed
+        energy production, distribution and consumption.
+    </string>
+    <string name="fragment_gallery">Gallery</string>
+    <string name="img1">Image1</string>
+    <string name="img2">Image2</string>
+    <string name="img3">Image3</string>
+    <string name="img4">Image4</string>
+    <string name="img5">Image5</string>
+    <string name="img6">Image6</string>
+    <string name="img7">Image7</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyB8g-T1-y1AmftWDfl42TnN3xHWBd-76lU
+    </string>
+
+</resources>
